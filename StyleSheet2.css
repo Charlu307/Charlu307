@@ -1,0 +1,113 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #e0f7fa; /* Un azul claro y fresco para el fondo */
+}
+
+.container {
+    background-color: #ffffff; /* Blanco puro para el contenedor principal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra un poco más definida */
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    color: #00796b; /* Un verde azulado vibrante para los títulos */
+}
+
+.resaltado {
+    background-color: #ffeb3b; /* Amarillo brillante para resaltar */
+    font-weight: bold;
+}
+
+input[type="number"], input[type="text"], select {
+    width: calc(100% - 30px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #80cbc4; /* Un borde verde azulado más suave */
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ff7043; /* Un naranja vivo para los botones */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    button:hover {
+        background-color: #f4511e; /* Un naranja más oscuro al pasar el ratón */
+    }
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #c8e6c9; /* Un borde verde claro para los resultados */
+    background-color: #e8f5e9; /* Un fondo verde aún más claro para los resultados */
+    border-radius: 4px;
+    color: #2e7d32; /* Un verde oscuro para el texto del resultado */
+}
+
+.container_estiloAlternativo {
+    body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    color: #333;
+}
+
+.resaltado {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+
+input[type="number"], input[type="text"], select {
+    width: calc(100% - 30px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #cce5ff;
+    background-color: #e0f2ff;
+    border-radius: 4px;
+    color: #004085;
+}
+

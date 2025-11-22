@@ -1,0 +1,62 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    color: #333;
+}
+
+.resaltado {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+
+input[type="number"], input[type="text"], select {
+    width: calc(100% - 30px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #cce5ff;
+    background-color: #e0f2ff;
+    border-radius: 4px;
+    color: #004085;
+}
+}
+
+
+
+
